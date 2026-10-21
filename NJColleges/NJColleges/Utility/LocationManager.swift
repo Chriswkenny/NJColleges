@@ -7,7 +7,6 @@
 
 import Foundation
 import CoreLocation
-import Observation
 
 @Observable
 final class LocationManager: NSObject{

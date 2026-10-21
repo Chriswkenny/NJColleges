@@ -20,19 +20,12 @@ struct CollegeDetailView: View{
             ("Municipality: ", college.municipali),
             ("Address: ", college.address),
             ("City: ", college.city),
+            ("Phone Number: ", college.area + "-" + college.phone),
+            ("Highest Degree: ", college.degree),
             ("ZIP: ", college.zip),
             ("Doctorate: ", college.doctorate ? "Yes" : "No")
         ]
-        /*
-         Original Code, trying to make an array of rows instead
-         let properties = Mirror(reflecting: college).children.compactMap{
-         child -> (String, String)? in
-         
-         guard let name = child.label else{
-         return nil
-         }
-         return (name, String(describing: child.value))
-         */
+
     
         return LazyVGrid(
             columns:
@@ -68,7 +61,8 @@ struct CollegeDetailView: View{
                 )
                 ){
                 UserAnnotation()
-                Marker(college.name, coordinate:        CLLocationCoordinate2D(
+                Marker(college.name, coordinate:
+                        CLLocationCoordinate2D(
                         latitude: college.latitude,
                         longitude: college.longitude))
                 }

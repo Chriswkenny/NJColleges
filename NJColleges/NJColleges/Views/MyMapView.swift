@@ -12,7 +12,7 @@ struct MyMapView: View {
     
     @State private var locationManager = LocationManager()
     @State var collegeVM = CollegesVM()
-    @State private var selectedCollege = College?.self
+    @State private var selectedCollege: College?
     
     var body: some View{
         Map {
@@ -24,7 +24,7 @@ struct MyMapView: View {
                             longitude: college.longitude)){
                     Image(systemName: "text.book.closed")
                         .padding(5)
-                        .background(.green, in: Rectangle())
+                        .background(.red, in: Circle())
                         .foregroundStyle(.white)
                         .onTapGesture{ selectedCollege = college}
                 }

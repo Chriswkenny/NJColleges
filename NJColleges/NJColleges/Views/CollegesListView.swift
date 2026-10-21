@@ -17,7 +17,7 @@ struct CollegesListView: View{
             List(searchResults){college in
                 NavigationLink(destination:
                     CollegeDetailView(college: college)){
-                    CollegeRow(college: college)
+                    CollegeRowView(college: college)
                 }
             }
             .navigationTitle("Colleges")
