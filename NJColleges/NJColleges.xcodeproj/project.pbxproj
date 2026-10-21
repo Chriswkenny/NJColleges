@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		17450C99307EC10000705A32 /* NJColleges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJColleges.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178AC9F13089073800FFA9D0 /* NJColleges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJColleges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		17450C9B307EC10000705A32 /* NJColleges */ = {
+		178AC9F33089073800FFA9D0 /* NJColleges */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NJColleges;
 			sourceTree = "<group>";
@@ -19,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		17450C96307EC10000705A32 /* Frameworks */ = {
+		178AC9EE3089073700FFA9D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
@@ -27,18 +27,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17450C90307EC10000705A32 = {
+		178AC9E83089073700FFA9D0 = {
 			isa = PBXGroup;
 			children = (
-				17450C9B307EC10000705A32 /* NJColleges */,
-				17450C9A307EC10000705A32 /* Products */,
+				178AC9F33089073800FFA9D0 /* NJColleges */,
+				178AC9F23089073800FFA9D0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		17450C9A307EC10000705A32 /* Products */ = {
+		178AC9F23089073800FFA9D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17450C99307EC10000705A32 /* NJColleges.app */,
+				178AC9F13089073800FFA9D0 /* NJColleges.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,60 +46,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		17450C98307EC10000705A32 /* NJColleges */ = {
+		178AC9F03089073700FFA9D0 /* NJColleges */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17450CA4307EC10200705A32 /* Build configuration list for PBXNativeTarget "NJColleges" */;
+			buildConfigurationList = 178AC9FC3089073900FFA9D0 /* Build configuration list for PBXNativeTarget "NJColleges" */;
 			buildPhases = (
-				17450C95307EC10000705A32 /* Sources */,
-				17450C96307EC10000705A32 /* Frameworks */,
-				17450C97307EC10000705A32 /* Resources */,
+				178AC9ED3089073700FFA9D0 /* Sources */,
+				178AC9EE3089073700FFA9D0 /* Frameworks */,
+				178AC9EF3089073700FFA9D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				17450C9B307EC10000705A32 /* NJColleges */,
+				178AC9F33089073800FFA9D0 /* NJColleges */,
 			);
 			name = NJColleges;
 			productName = NJColleges;
-			productReference = 17450C99307EC10000705A32 /* NJColleges.app */;
+			productReference = 178AC9F13089073800FFA9D0 /* NJColleges.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		17450C91307EC10000705A32 /* Project object */ = {
+		178AC9E93089073700FFA9D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2700;
 				LastUpgradeCheck = 2700;
 				TargetAttributes = {
-					17450C98307EC10000705A32 = {
+					178AC9F03089073700FFA9D0 = {
 						CreatedOnToolsVersion = 27.0;
 					};
 				};
 			};
-			buildConfigurationList = 17450C94307EC10000705A32 /* Build configuration list for PBXProject "NJColleges" */;
+			buildConfigurationList = 178AC9EC3089073700FFA9D0 /* Build configuration list for PBXProject "NJColleges" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 17450C90307EC10000705A32;
+			mainGroup = 178AC9E83089073700FFA9D0;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 17450C9A307EC10000705A32 /* Products */;
+			productRefGroup = 178AC9F23089073800FFA9D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17450C98307EC10000705A32 /* NJColleges */,
+				178AC9F03089073700FFA9D0 /* NJColleges */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		17450C97307EC10000705A32 /* Resources */ = {
+		178AC9EF3089073700FFA9D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -107,7 +107,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17450C95307EC10000705A32 /* Sources */ = {
+		178AC9ED3089073700FFA9D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
 			);
@@ -115,7 +115,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		17450CA2307EC10200705A32 /* Debug configuration for PBXProject "NJColleges" */ = {
+		178AC9FA3089073900FFA9D0 /* Debug configuration for PBXProject "NJColleges" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +178,7 @@
 			};
 			name = Debug;
 		};
-		17450CA3307EC10200705A32 /* Release configuration for PBXProject "NJColleges" */ = {
+		178AC9FB3089073900FFA9D0 /* Release configuration for PBXProject "NJColleges" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +234,7 @@
 			};
 			name = Release;
 		};
-		17450CA5307EC10200705A32 /* Debug configuration for PBXNativeTarget "NJColleges" */ = {
+		178AC9FD3089073900FFA9D0 /* Debug configuration for PBXNativeTarget "NJColleges" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -243,6 +243,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -253,7 +254,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.s1139346.HW3.NJColleges;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.s1139346.HW4.NJColleges;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -265,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		17450CA6307EC10200705A32 /* Release configuration for PBXNativeTarget "NJColleges" */ = {
+		178AC9FE3089073900FFA9D0 /* Release configuration for PBXNativeTarget "NJColleges" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -274,6 +275,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,7 +286,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.s1139346.HW3.NJColleges;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.s1139346.HW4.NJColleges;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -299,24 +301,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17450C94307EC10000705A32 /* Build configuration list for PBXProject "NJColleges" */ = {
+		178AC9EC3089073700FFA9D0 /* Build configuration list for PBXProject "NJColleges" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17450CA2307EC10200705A32 /* Debug configuration for PBXProject "NJColleges" */,
-				17450CA3307EC10200705A32 /* Release configuration for PBXProject "NJColleges" */,
+				178AC9FA3089073900FFA9D0 /* Debug configuration for PBXProject "NJColleges" */,
+				178AC9FB3089073900FFA9D0 /* Release configuration for PBXProject "NJColleges" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		17450CA4307EC10200705A32 /* Build configuration list for PBXNativeTarget "NJColleges" */ = {
+		178AC9FC3089073900FFA9D0 /* Build configuration list for PBXNativeTarget "NJColleges" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17450CA5307EC10200705A32 /* Debug configuration for PBXNativeTarget "NJColleges" */,
-				17450CA6307EC10200705A32 /* Release configuration for PBXNativeTarget "NJColleges" */,
+				178AC9FD3089073900FFA9D0 /* Debug configuration for PBXNativeTarget "NJColleges" */,
+				178AC9FE3089073900FFA9D0 /* Release configuration for PBXNativeTarget "NJColleges" */,
 			);
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 17450C91307EC10000705A32 /* Project object */;
+	rootObject = 178AC9E93089073700FFA9D0 /* Project object */;
 	validationLevel = 1;
 }
